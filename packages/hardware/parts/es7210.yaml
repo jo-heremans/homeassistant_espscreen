@@ -8,7 +8,9 @@
 # one way at a time, without the AEC libraries. On a bus of its own beside the speaker's (the board also declares
 # AUDIO_MIC_MCLK_PIN, AUDIO_MIC_BCLK_PIN and AUDIO_MIC_LRCLK_PIN): "split" (es7210/split.yaml), ESPHome's own I2S on
 # both buses, both ways at once without echo cancelling; or "split-aec" (es7210/split-aec.yaml), the same with the
-# reference and echo cancelling. A screen's Override YAML picks another with AUDIO_TRANSPORT (docs/P4_AUDIO.md).
+# reference and echo cancelling. Or "duplex" (es7210/duplex.yaml): the one shared bus from two of the chip's I2S ports
+# on the same clock pins, both ways at once without echo cancelling. A screen's Override YAML picks another with
+# AUDIO_TRANSPORT (docs/P4_AUDIO.md).
 packages:
   transport: !include es7210/${AUDIO_TRANSPORT}.yaml
 

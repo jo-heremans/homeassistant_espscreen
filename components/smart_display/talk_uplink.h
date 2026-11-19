@@ -66,7 +66,7 @@ inline float bar_of(float db) {
   return (db - FLOOR_DB) / (CEILING_DB - FLOOR_DB);
 }
 
-#if defined(USE_MICROPHONE) && defined(USE_LIVE_VIEW)
+#if defined(USE_MICROPHONE) && defined(USE_LIVE_VIEW) && defined(SCREEN_PICTURES)
 // The board's microphone (packages/features/audio-player.yaml binds it).
 // `gain`: what the voice is multiplied by on its way out, after the board's own processing (an echo canceller wants
 // the microphone low enough not to clip on the board's own speaker, and the voice is made up here).

@@ -1,7 +1,7 @@
 // The talk uplink's task (talk_uplink.h, docs/CALLS.md).
 #include "talk_uplink.h"
 
-#if defined(USE_MICROPHONE) && defined(USE_LIVE_VIEW)
+#if defined(USE_MICROPHONE) && defined(USE_LIVE_VIEW) && defined(SCREEN_PICTURES)
 #include <cstring>
 #include <memory>
 #include <atomic>

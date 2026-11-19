@@ -374,6 +374,28 @@
   "width": 320
  },
  "checkout/esp32s3box3.yaml": {
+  "added_icons": {
+   "materialdesign_icons": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ],
+   "materialdesign_icons_mini": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ]
+  },
   "alert": {
    "line": 19,
    "title_line": 25
@@ -388,7 +410,12 @@
    "model": "ESP32-S3-BOX-3",
    "name": "Espressif",
    "order": 32,
-   "settings": [],
+   "settings": [
+    "media_player",
+    "microphone",
+    "microphone_gain",
+    "automatic_gain"
+   ],
    "status": "experimental",
    "touch": "GT911"
   },
@@ -396,7 +423,11 @@
   "columns": 2,
   "dimmable": true,
   "dpi": 167,
-  "features": [],
+  "features": [
+   "speaker",
+   "microphone",
+   "media_player"
+  ],
   "firmware": "0.62.0",
   "fonts": {
    "headline": 21,
@@ -5264,6 +5295,28 @@
   "width": 320
  },
  "esp32s3box3": {
+  "added_icons": {
+   "materialdesign_icons": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ],
+   "materialdesign_icons_mini": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ]
+  },
   "alert": {
    "line": 19,
    "title_line": 25
@@ -5278,7 +5331,12 @@
    "model": "ESP32-S3-BOX-3",
    "name": "Espressif",
    "order": 32,
-   "settings": [],
+   "settings": [
+    "media_player",
+    "microphone",
+    "microphone_gain",
+    "automatic_gain"
+   ],
    "status": "experimental",
    "touch": "GT911"
   },
@@ -5286,7 +5344,11 @@
   "columns": 2,
   "dimmable": true,
   "dpi": 167,
-  "features": [],
+  "features": [
+   "speaker",
+   "microphone",
+   "media_player"
+  ],
   "firmware": "0.62.0",
   "fonts": {
    "headline": 21,
@@ -7433,6 +7495,28 @@
   "width": 320
  },
  "packages/esp32s3box3.yaml": {
+  "added_icons": {
+   "materialdesign_icons": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ],
+   "materialdesign_icons_mini": [
+    "F036D",
+    "F03F5",
+    "F03FA",
+    "F0567",
+    "F0568",
+    "F05CB",
+    "F0A45",
+    "F0ED4"
+   ]
+  },
   "alert": {
    "line": 19,
    "title_line": 25
@@ -7447,7 +7531,12 @@
    "model": "ESP32-S3-BOX-3",
    "name": "Espressif",
    "order": 32,
-   "settings": [],
+   "settings": [
+    "media_player",
+    "microphone",
+    "microphone_gain",
+    "automatic_gain"
+   ],
    "status": "experimental",
    "touch": "GT911"
   },
@@ -7455,7 +7544,11 @@
   "columns": 2,
   "dimmable": true,
   "dpi": 167,
-  "features": [],
+  "features": [
+   "speaker",
+   "microphone",
+   "media_player"
+  ],
   "firmware": "0.62.0",
   "fonts": {
    "headline": 21,

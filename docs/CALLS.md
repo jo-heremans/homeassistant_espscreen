@@ -9,6 +9,8 @@ screen's glass and speaker, both ways, through the add-on. The doorbell's Talk i
 A screen's microphone goes up as plain 16 kHz, 16-bit mono PCM in 20 ms parts: a chunked POST to `/camera/<token>/talk` on
 the camera port the screen already uses (`talk_uplink.h`, the add-on's `talk_bridge.py`). No codec on the screen, 256 kbit/s,
 every P4 with a microphone. The add-on's answer comes once the far end stands, so a key says it is live only then.
+It needs the camera's connection (`SCREEN_PICTURES`, features/camera.yaml): a board with a microphone and no camera
+pictures (the ESP32-S3-BOX-3) builds without it and has no Talk.
 
 ## What a live picture costs today, measured
 

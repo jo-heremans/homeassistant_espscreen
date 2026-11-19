@@ -1,6 +1,7 @@
 ## Unreleased
 
-- **A new board, experimental: the Espressif ESP32-S3-BOX-3**, a 2.4-inch ESP32-S3 board with 320 x 240 glass, GT911 touch, a dimmable backlight and 16 MB PSRAM, as a screen only. Choose it under New screen, as Espressif.
+- **A new board, experimental: the Espressif ESP32-S3-BOX-3**, a 2.4-inch ESP32-S3 board with 320 x 240 glass, GT911 touch, a dimmable backlight and 16 MB PSRAM, with its speaker and microphones (experimental): a media player in Home Assistant, and ready for the voice assistant plugin. Choose it under New screen, as Espressif.
+- **A wake word keeps listening after a question on a board whose microphone and speaker take turns.** The voice assistant stopped the microphone at the end of a question, under the wake word, which then never heard its word again until a restart. While a plugin holds the microphone it now runs whenever the speaker is quiet. Seen on an ESP32-S3-BOX-3.
 - **The alarm page in every language.** German, Spanish, French, Hungarian, Italian, Polish, Portuguese and Russian showed the new Alarm page under Events, and the note on a plugin that runs another version on a screen, in English. They are translated now.
 
 ## 0.4.99 (firmware 0.62.0)
